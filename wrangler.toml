@@ -1,0 +1,10 @@
+name = "baidu-oauth-worker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.dev]
+vars = { }
+
+[vars]
+API_KEY="NqOMXF6XGhGRIGemsQ9nG0Na"
+SECRET_KEY="SVT6xpMdLcx6v4aCR4wT8BBOTbzFO8LM"

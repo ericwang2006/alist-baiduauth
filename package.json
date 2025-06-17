@@ -1,0 +1,23 @@
+{
+  "name": "baidu-oauth-worker",
+  "version": "1.0.0",
+  "description": "Baidu OAuth Worker for Cloudflare",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev --local --ip 0.0.0.0",
+    "preview": "wrangler dev --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.20.0"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "baidu",
+    "oauth"
+  ],
+  "author": "",
+  "license": "MIT"
+}
