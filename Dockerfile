@@ -4,7 +4,8 @@ WORKDIR /app
 
 COPY package.json ./
 
-RUN npm install
+# 更新证书和安装 npm 依赖
+RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificates && npm install
 
 COPY worker.js ./
 COPY wrangler.toml ./
